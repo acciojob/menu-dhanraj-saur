@@ -1,12 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #bfe6f5;
+}
+
+
 h1 {
     color: #27aedb;
     text-align: center;
-    }
-    
+}
 
-button{
+
+button {
     color: #27aedb;
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin: 10px;
+}
+
+
+.dishes img{
+    width: 160px;
+    height: 110px;
+    border: 1px solid gray;
 }
