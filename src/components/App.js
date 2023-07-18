@@ -1,2 +1,15 @@
-<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
+import React from 'react';
+import DishList from './DishList';
+import CategoryFilter from './CategoryFilter';
 
+const App = () => {
+    return (
+        <div>
+            <h1>Delicious Dishes</h1>
+            <CategoryFilter />
+            <DishList />
+        </div>
+    );
+};
+
+export default App;
